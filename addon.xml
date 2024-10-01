@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.videonerd" name="Repository" version="1.0" provider-name="[COLOR orange]Videonerd[/COLOR]">
+    <extension point="repository.videonerd" name="Videonerd Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/hamakavula/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/hamakavula/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/hamakavula/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Videonerd Repository</summary>
+        <description>Videonerd Repository</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
